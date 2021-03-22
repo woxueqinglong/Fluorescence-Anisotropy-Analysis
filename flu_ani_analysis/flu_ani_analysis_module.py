@@ -77,7 +77,7 @@ class FA:
         print(f"Number of repeats: {len(self.data_dict)} \nValue of g-factor: {self.g_factor} \nOverall number of empty cells is {int(nan)} in {len(frames)} data frames.\nProteins: {p_names}\nTracers: {t_names}")
               
               
-    @classmethod
+    #classmethod
     def read_in_envision(cls, data_csv, platemap_csv, data_type='plate', size=384):
         """Reads in the raw data from csv file along with a platemap and constructs the FA class boject.
         
